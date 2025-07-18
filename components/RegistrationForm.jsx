@@ -38,8 +38,8 @@ export default function RegistrationForm() {
   }
 
   return (
-    <section className="py-16">
-      <div className="max-w-3xl mx-auto border border-dashed border-[#FF7A00] rounded-2xl p-8">
+    <section className="py-16 p-6 lg:p-0">
+      <div className="max-w-3xl mx-auto border border-dashed border-[#FF7A00] rounded-2xl lg:p-8 p-4">
         {/* Form Title */}
         <h2
           className={`${bebasNeue.className} text-3xl md:text-4xl lg:text-5xl text-gray-800 text-center mb-12 tracking-wide font-normal`}
