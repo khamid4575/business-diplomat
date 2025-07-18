@@ -2,6 +2,13 @@
 
 import { useState } from "react"
 import { Bebas_Neue } from "next/font/google"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const bebasNeue = Bebas_Neue({
   weight: "400",
@@ -167,24 +174,29 @@ export default function RegistrationForm() {
             />
           </div>
 
-          {/* Government Connections */}
-          <div>
-            <div className="text-gray-700 mb-2 px-2">
-              Business Diplomat "Level One" Sertifikatini qo'lga kiritganmisiz?
-            </div>
-            <select
-              name="certification"
-              value={formData.certification}
-              onChange={handleInputChange}
-              className="w-full px-6 py-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-700 bg-white"
-              required
-            >
-              {/* <option value="">Ha, kiritganman</option> */}
-              <option value="yes">Ha, kiritganman</option>
-              <option value="no">Yo'q, kiritmaganman</option>
-              <option value="process">Jarayonda</option>
-            </select>
-          </div>
+ {/* Government Connections */}
+<div>
+  <div className="text-gray-700 mb-2 px-2">
+    Business Diplomat "Level One" Sertifikatini qo'lga kiritganmisiz?
+  </div>
+
+  <Select
+    value={formData.certification}
+    onValueChange={(value) =>
+      handleInputChange({ target: { name: "certification", value } })
+    }
+  >
+    <SelectTrigger className="w-full rounded-full px-6 py-7 text-gray-700 bg-white border border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none">
+      <SelectValue placeholder="Tanlang" />
+    </SelectTrigger>
+
+    <SelectContent>
+      <SelectItem value="yes">Ha, kiritganman</SelectItem>
+      <SelectItem value="no">Yo'q, kiritmaganman</SelectItem>
+      <SelectItem value="process">Jarayonda</SelectItem>
+    </SelectContent>
+  </Select>
+</div>
 
           {/* Government Response */}
           <div>
