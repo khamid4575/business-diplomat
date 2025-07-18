@@ -6,14 +6,14 @@ const Goal = () => {
     <div className="bg-black">
       <div className="relative bg-black  py-16 lg:px-4 md:px-36 px-6 flex flex-col items-center text-white overflow-hidden">
         {/* Sarlavha */}
-        <h1 className="transform scale-y-150 relative z-10 text-center 2xl:text-3xl lg:text-2xl md:text-2xl font-extrabold uppercase tracking-wider bg-gradient-to-r from-[#707070] via-[#FFFFFF] to-[#707070] bg-clip-text text-transparent mb-24">
+        <h1 className="transform scale-y-150 relative z-10 text-center 2xl:text-3xl lg:text-2xl md:text-2xl font-extrabold uppercase tracking-wider bg-gradient-to-r from-[#707070] via-[#FFFFFF] to-[#707070] bg-clip-text text-transparent mb-16">
           Business Diplomat loyihasining maqsadi
         </h1>
 
         {/* Dekorativ "1" raqami orqa fon elementi */}
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
-          className="block-one absolute 2xl:left-[470px] left-[190px] top-[220px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
+          className="block-one absolute 2xl:left-[470px] lg:left-[190px] md:left-20 -left-2 lg:top-[220px] top-[280px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] lg:text-[260px] md:text-[150px] text-[80px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
         >
           1
         </p>
@@ -59,7 +59,7 @@ const Goal = () => {
         {/* Dekorativ "1" raqami orqa fon elementi */}
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
-          className=" bold-one absolute 2xl:left-[470px] left-[190px] top-[90px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
+          className=" bold-one absolute 2xl:left-[470px] lg:left-[190px] md:left-20 -left-2 lg:top-[90px] top-[170px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] lg:text-[260px] md:text-[120px] text-[80px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
         >
           2
         </p>
@@ -101,7 +101,7 @@ const Goal = () => {
         {/* Dekorativ "1" raqami orqa fon elementi */}
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
-          className=" bold-one absolute 2xl:left-[470px] left-[190px] top-[90px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
+          className=" bold-one absolute 2xl:left-[470px] lg:left-[190px]  md:left-20 -left-2 lg:top-[90px] top-[170px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] lg:text-[260px] md:text-[120px] text-[80px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
         >
           3
         </p>
