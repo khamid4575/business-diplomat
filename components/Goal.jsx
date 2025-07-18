@@ -4,7 +4,7 @@ import Image from "next/image";
 const Goal = () => {
   return (
     <div className="bg-black">
-      <div className="relative bg-black  py-16 lg:px-4 px-6 flex flex-col items-center text-white overflow-hidden">
+      <div className="relative bg-black  py-16 lg:px-4 md:px-36 px-6 flex flex-col items-center text-white overflow-hidden">
         {/* Sarlavha */}
         <h1 className="transform scale-y-150 relative z-10 text-center 2xl:text-3xl lg:text-2xl md:text-2xl font-extrabold uppercase tracking-wider bg-gradient-to-r from-[#707070] via-[#FFFFFF] to-[#707070] bg-clip-text text-transparent mb-24">
           Business Diplomat loyihasining maqsadi
@@ -55,7 +55,7 @@ const Goal = () => {
           />
         </div>
       </div>
-      <div className="relative bg-black py-16 lg:px-4 px-6 flex flex-col items-center text-white overflow-hidden">
+      <div className="relative bg-black py-16 lg:px-4 md:px-36 px-6 flex flex-col items-center text-white overflow-hidden">
         {/* Dekorativ "1" raqami orqa fon elementi */}
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
@@ -97,7 +97,7 @@ const Goal = () => {
           />
         </div>
       </div>
-      <div className="relative bg-black pt-16 lg:px-4 px-6 flex flex-col items-center text-white overflow-hidden ">
+      <div className="relative bg-black pt-16 lg:px-4 md:px-36 px-6 flex flex-col items-center text-white overflow-hidden ">
         {/* Dekorativ "1" raqami orqa fon elementi */}
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
@@ -145,7 +145,7 @@ const Goal = () => {
           />
         </div>
       </div>
-      <div className="bg-black text-white text-center border-t border-white border-dashed max-w-96 lg:max-w-4xl mt-16 mx-auto">
+      <div className="bg-black text-white text-center border-t border-white border-dashed max-w-96 md:max-w-2xl lg:max-w-4xl mt-16 mx-auto">
       </div>
     </div>
   );

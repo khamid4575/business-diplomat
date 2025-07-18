@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Addresses2 = () => {
   return (
-    <div className="lg:p-16 p-6 2xl:px-44">
+    <div className="lg:p-16 md:px-36 p-6 2xl:px-44">
       <h1 className="transform scale-y-150 relative z-10 text-center 2xl:text-3xl lg:text-2xl md:text-2xl font-extrabold uppercase tracking-wider bg-gradient-to-r from-[#454545] via-[#000000] to-[#454545] bg-clip-text text-transparent lg:mt-0 mt-10 mb-16">
         BUSINESS DIPLOMAT "LEVEL TWO" MANZILLARI
       </h1>

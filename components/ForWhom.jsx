@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const ForWhom = () => {
   return (
-    <div className="bg-black lg:p-16 p-6 2xl:px-44">
+    <div className="bg-black lg:p-16 md:p-36 p-6 2xl:px-44">
       <h1 className="transform scale-y-150 relative z-10 text-center 2xl:text-3xl lg:text-2xl md:text-2xl font-extrabold uppercase tracking-wider bg-gradient-to-r from-[#707070] via-[#FFFFFF] to-[#707070] bg-clip-text text-transparent mb-20">
         Business Diplomat - kimlar uchun ?
       </h1>
