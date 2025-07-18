@@ -41,7 +41,7 @@ const Hero = () => {
         Xalqaro biznes ta&apos;lim loyihasi
       </p>
 
-      <Button variant="custom" size="custom" className="absolute z-50 2xl:top-195 lg:top-125 md:top-240 top-145 left-1/2 -translate-x-1/2">
+      <Button variant="custom" size="custom" className="absolute z-50 2xl:top-195 lg:top-125 md:top-240 top-147 left-1/2 -translate-x-1/2">
         Loyihada qatnashish uchun ro’yxatdan o’ting
       </Button>
 
