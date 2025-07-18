@@ -31,7 +31,7 @@ const ForWhom = () => {
               bo‘lmoqchisiz.
             </p>
           </div>
-          <Link href={""}>
+          <Link href={"#contactForm"}>
             <Button
               variant="custom"
               className="w-full px-4 py-6 lg:absolute bottom-0"
@@ -61,7 +61,7 @@ const ForWhom = () => {
               natijalarga erishing va ilg‘or tendensiyalardan xabardor bo‘ling.
             </p>
           </div>
-          <Link href={""}>
+          <Link href={"#contactForm"}>
             <Button
               variant="custom"
               className="w-full px-4 py-6 lg:absolute bottom-0"
@@ -92,7 +92,7 @@ const ForWhom = () => {
               yo‘l ko‘rsatadigan strategik ko‘nikmalarni o‘rganmoqchisiz.
             </p>
           </div>
-          <Link href={""}>
+          <Link href={"#contactForm"}>
             <Button variant="custom" className="w-full px-4 py-6">
               Ro'yxatdan o'tish
             </Button>

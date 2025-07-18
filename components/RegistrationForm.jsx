@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Bebas_Neue } from "next/font/google"
+import { useState } from "react";
+import { Bebas_Neue } from "next/font/google";
 import {
   Select,
   SelectContent,
@@ -14,7 +14,7 @@ const bebasNeue = Bebas_Neue({
   weight: "400",
   subsets: ["latin"],
   display: "swap",
-})
+});
 
 export default function RegistrationForm() {
   const [formData, setFormData] = useState({
@@ -29,23 +29,23 @@ export default function RegistrationForm() {
     countries: "",
     government: "",
     certification: "",
-  })
+  });
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target
+    const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
       [name]: value,
-    }))
-  }
+    }));
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log("Form submitted:", formData)
-  }
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+  };
 
   return (
-    <section className="py-16 md:px-36 p-6 lg:px-0">
+    <section id="contactForm" className="py-16 md:px-36 p-6 lg:px-0">
       <div className="max-w-3xl mx-auto border border-dashed border-[#FF7A00] rounded-2xl lg:p-8 p-4">
         {/* Form Title */}
         <h2
@@ -174,29 +174,29 @@ export default function RegistrationForm() {
             />
           </div>
 
- {/* Government Connections */}
-<div>
-  <div className="text-gray-700 mb-2 px-2">
-    Business Diplomat "Level One" Sertifikatini qo'lga kiritganmisiz?
-  </div>
+          {/* Government Connections */}
+          <div>
+            <div className="text-gray-700 mb-2 px-2">
+              Business Diplomat "Level One" Sertifikatini qo'lga kiritganmisiz?
+            </div>
 
-  <Select
-    value={formData.certification}
-    onValueChange={(value) =>
-      handleInputChange({ target: { name: "certification", value } })
-    }
-  >
-    <SelectTrigger className="w-full rounded-full px-6 py-7 text-gray-700 bg-white border border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none">
-      <SelectValue placeholder="Tanlang" />
-    </SelectTrigger>
+            <Select
+              value={formData.certification}
+              onValueChange={(value) =>
+                handleInputChange({ target: { name: "certification", value } })
+              }
+            >
+              <SelectTrigger className="w-full rounded-full px-6 py-7 text-gray-700 bg-white border border-gray-300 focus:ring-2 focus:ring-gray-400 focus:outline-none">
+                <SelectValue placeholder="Tanlang" />
+              </SelectTrigger>
 
-    <SelectContent>
-      <SelectItem value="yes">Ha, kiritganman</SelectItem>
-      <SelectItem value="no">Yo'q, kiritmaganman</SelectItem>
-      <SelectItem value="process">Jarayonda</SelectItem>
-    </SelectContent>
-  </Select>
-</div>
+              <SelectContent>
+                <SelectItem value="yes">Ha, kiritganman</SelectItem>
+                <SelectItem value="no">Yo'q, kiritmaganman</SelectItem>
+                <SelectItem value="process">Jarayonda</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
 
           {/* Government Response */}
           <div>
@@ -223,5 +223,5 @@ export default function RegistrationForm() {
         </form>
       </div>
     </section>
-  )
+  );
 }
