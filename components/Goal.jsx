@@ -1,3 +1,4 @@
+import { RectangleCircle } from "lucide-react";
 import Image from "next/image";
 
 const Goal = () => {
@@ -12,7 +13,7 @@ const Goal = () => {
         {/* Dekorativ "1" raqami orqa fon elementi */}
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
-          className="bold-one absolute left-[210px] top-[220px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
+          className="block-one absolute 2xl:left-[470px] left-[190px] top-[220px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
         >
           1
         </p>
@@ -58,7 +59,7 @@ const Goal = () => {
         {/* Dekorativ "1" raqami orqa fon elementi */}
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
-          className=" bold-one absolute left-[210px] top-[90px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
+          className=" bold-one absolute 2xl:left-[470px] left-[190px] top-[90px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
         >
           2
         </p>
@@ -96,11 +97,11 @@ const Goal = () => {
           />
         </div>
       </div>
-      <div className="relative bg-black min-h-screen py-16 px-4 flex flex-col items-center text-white overflow-hidden">
+      <div className="relative bg-black pt-16 px-4 flex flex-col items-center text-white overflow-hidden ">
         {/* Dekorativ "1" raqami orqa fon elementi */}
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
-          className=" bold-one absolute left-[210px] top-[90px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
+          className=" bold-one absolute 2xl:left-[470px] left-[190px] top-[90px] bg-clip-text text-transparent  bg-gradient-to-b from-white/90 to-[#666] text-[260px] font-extrabold leading-none z-0 select-none flex items-center justify-center"
         >
           3
         </p>
@@ -143,6 +144,12 @@ const Goal = () => {
             className="rounded-lg mx-auto w-full h-[240px] max-w-md object-cover"
           />
         </div>
+      </div>
+      <div className="bg-black text-white text-center">
+        <p className="pt-16 text-2xl">
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        </p>
       </div>
     </div>
   );

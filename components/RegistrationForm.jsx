@@ -24,7 +24,7 @@ export default function RegistrationForm() {
     certification: "",
   })
 
-  const handleInputChange = () => {
+  const handleInputChange = (e) => {
     const { name, value } = e.target
     setFormData((prev) => ({
       ...prev,
@@ -32,7 +32,7 @@ export default function RegistrationForm() {
     }))
   }
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault()
     console.log("Form submitted:", formData)
   }
@@ -179,7 +179,7 @@ export default function RegistrationForm() {
               className="w-full px-6 py-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent text-gray-700 bg-white"
               required
             >
-              <option value="">Ha, kiritganman</option>
+              {/* <option value="">Ha, kiritganman</option> */}
               <option value="yes">Ha, kiritganman</option>
               <option value="no">Yo'q, kiritmaganman</option>
               <option value="process">Jarayonda</option>

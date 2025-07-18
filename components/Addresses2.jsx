@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Addresses2 = () => {
   return (
-    <div className="p-16 ">
+    <div className="p-16 2xl:px-44">
       <h1 className="transform scale-y-150 relative z-10 text-center 2xl:text-3xl lg:text-2xl md:text-2xl font-extrabold uppercase tracking-wider bg-gradient-to-r from-[#454545] via-[#000000] to-[#454545] bg-clip-text text-transparent mb-16">
         BUSINESS DIPLOMAT "LEVEL TWO" MANZILLARI
       </h1>
@@ -13,7 +13,7 @@ const Addresses2 = () => {
             alt=""
             width={1000}
             height={1000}
-            className="object-cover bg-center w-full 2xl:h-[280px] h-[480px] rounded-lg border border-[#666666]"
+            className="object-cover bg-center w-full h-[480px] rounded-lg border border-[#666666]"
           />
           <div className="px-2 py-6 space-y-6">
             <h1 className="transform scale-y-150 text-xl font-bold uppercase">
@@ -40,7 +40,7 @@ const Addresses2 = () => {
             alt=""
             width={1000}
             height={1000}
-            className="object-cover bg-center w-full 2xl:h-[280px] h-[480px] rounded-lg border border-[#666666]"
+            className="object-cover bg-center w-full h-[480px] rounded-lg border border-[#666666]"
           />
           <div className="px-2 pb-6 space-y-6">
             <h1 className="transform scale-y-150 text-xl font-bold uppercase">
@@ -66,7 +66,7 @@ const Addresses2 = () => {
             alt=""
             width={1000}
             height={1000}
-            className="object-cover bg-center w-full 2xl:h-[280px] h-[480px] rounded-lg border border-[#666666]"
+            className="object-cover bg-center w-full h-[480px] rounded-lg border border-[#666666]"
           />
           <div className="px-2 pb-6 space-y-6">
             <h1 className="transform scale-y-150 text-xl  font-bold uppercase">
@@ -92,7 +92,7 @@ const Addresses2 = () => {
             alt=""
             width={1000}
             height={1000}
-            className="object-cover bg-center w-full 2xl:h-[280px] h-[480px] rounded-lg border border-[#666666]"
+            className="object-cover bg-center w-full h-[480px] rounded-lg border border-[#666666]"
           />
           <div className="px-2 pb-6 space-y-6">
             <h1 className="transform scale-y-150 text-xl  font-bold uppercase">

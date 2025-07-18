@@ -44,14 +44,11 @@
 }
 
 body {
-  font-family:  Montserrat, sans-serif;
+  font-family:  Montserrat, Babes Neue, sans-serif;
 }
 
 .block-one {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 900; /* yoki 800 */
-  font-size: 72px; /* kerakli o‘lcham */
-  color: white;
 }
 
 :root {
