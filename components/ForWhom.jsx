@@ -15,7 +15,7 @@ const ForWhom = () => {
 
           <div className="p-6 flex flex-col items-center text-center space-y-6">
             <Image
-              src={"/forWhom1.jpg"}
+              src={"/forWhom1.webp"}
               alt=""
               width={600}
               height={600}
@@ -46,7 +46,7 @@ const ForWhom = () => {
 
           <div className="p-6 flex flex-col items-center text-center space-y-6">
             <Image
-              src={"/forWhom2.jpg"}
+              src={"/forWhom2.webp"}
               alt=""
               width={600}
               height={600}
@@ -76,7 +76,7 @@ const ForWhom = () => {
 
           <div className="p-6 flex flex-col items-center text-center space-y-6">
             <Image
-              src={"/forWhom3.jpg"}
+              src={"/forWhom3.webp"}
               alt=""
               width={600}
               height={600}

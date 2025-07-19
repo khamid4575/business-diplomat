@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       style={{
-        backgroundImage: "url(/hero.png)",
+        backgroundImage: "url(/hero.webp)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center"
@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div className="absolute h-screen">
         <Image
-          src={"/overlay.jpg"}
+          src={"/overlay.webp"}
           alt="Business Diplomat"
           width={1920}
           height={1080}
@@ -30,7 +30,7 @@ const Hero = () => {
 
       <div className="absolute flex items-center justify-center inset-0 z-50">
         <Image
-          src={"/hero-ceo.png"}
+          src={"/hero-ceo.webp"}
           alt="Business Diplomat"
           width={1000}
           height={1000}

@@ -47,7 +47,7 @@ const Goal = () => {
 
           {/* Image */}
           <Image
-            src="/goal1.png" // bu yerga rasmni real pathini kiriting
+            src="/goal1.webp" // bu yerga rasmni real pathini kiriting
             alt="Business Diplomat participants"
             width={600}
             height={600}
@@ -89,7 +89,7 @@ const Goal = () => {
 
           {/* Image */}
           <Image
-            src="/goal2.png" // bu yerga rasmni real pathini kiriting
+            src="/goal2.webp" // bu yerga rasmni real pathini kiriting
             alt="Business Diplomat participants"
             width={600}
             height={600}
@@ -137,7 +137,7 @@ const Goal = () => {
 
           {/* Image */}
           <Image
-            src="/goal3.png" // bu yerga rasmni real pathini kiriting
+            src="/goal3.webp" // bu yerga rasmni real pathini kiriting
             alt="Business Diplomat participants"
             width={600}
             height={600}

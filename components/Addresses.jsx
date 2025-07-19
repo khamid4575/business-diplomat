@@ -9,7 +9,7 @@ const Addresses = () => {
       <div className="lg:flex justify-between items-start gap-10 space-y-10 lg:space-y-0">
         <div className="lg:w-1/3 flex flex-col items-center text-center bg-[#373737] rounded-lg border border-[#666666] h-auto">
           <Image
-            src={"/hyatt.png"}
+            src={"/hyatt.webp"}
             alt=""
             width={1000}
             height={1000}
@@ -28,7 +28,7 @@ const Addresses = () => {
         </div>
         <div className="lg:w-1/3 flex flex-col items-center text-center space-y-6 bg-[#373737] rounded-lg border border-[#666666]">
           <Image
-            src={"/london.png"}
+            src={"/london.webp"}
             alt=""
             width={1000}
             height={1000}
@@ -47,7 +47,7 @@ const Addresses = () => {
         </div>
         <div className="lg:w-1/3 flex flex-col items-center text-center space-y-6 bg-[#373737] rounded-lg border border-[#666666]">
           <Image
-            src={"/oxford.png"}
+            src={"/oxford.webp"}
             alt=""
             width={1000}
             height={1000}

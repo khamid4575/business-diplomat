@@ -9,7 +9,7 @@ const Addresses2 = () => {
       <div className="grid lg:grid-cols-4 gap-10">
         <div className="flex flex-col items-center text-center bg-[#E5E5E5] rounded-lg border border-[#666666] h-auto">
           <Image
-            src={"/buxoro.png"}
+            src={"/buxoro.webp"}
             alt=""
             width={1000}
             height={1000}
@@ -36,7 +36,7 @@ const Addresses2 = () => {
         </div>
         <div className="flex flex-col items-center text-center space-y-6 bg-[#E5E5E5] rounded-lg border border-[#666666]">
           <Image
-            src={"/tokio.png"}
+            src={"/tokio.webp"}
             alt=""
             width={1000}
             height={1000}
@@ -62,7 +62,7 @@ const Addresses2 = () => {
         </div>
         <div className="flex flex-col items-center text-center space-y-6 bg-[#E5E5E5] rounded-lg border border-[#666666]">
           <Image
-            src={"/osaka.png"}
+            src={"/osaka.webp"}
             alt=""
             width={1000}
             height={1000}
@@ -88,7 +88,7 @@ const Addresses2 = () => {
         </div>
         <div className="flex flex-col items-center text-center space-y-6 bg-[#E5E5E5] rounded-lg border border-[#666666]">
           <Image
-            src={"/kioto.png"}
+            src={"/kioto.webp"}
             alt=""
             width={1000}
             height={1000}
